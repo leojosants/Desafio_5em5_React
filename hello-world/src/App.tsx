@@ -1,11 +1,13 @@
 // 
+import { Header } from './components/Header/Header' 
+
 const App = () => {
   let name = `Leonardo Santos`;
   let age = 38;
 
   return(
     <div>
-      Me chamo {name} e tenho {age} anos.
+      <Header />
     </div>
   );
 };
