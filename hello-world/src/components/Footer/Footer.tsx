@@ -1,9 +1,9 @@
 // 
 
-export const Header = () => {
+export const Footer = () => {
     return(
-        <header>
-            <h1>Header</h1>
-        </header>
+        <footer>
+            Todos os direitos reservados
+        </footer>
     );
 };

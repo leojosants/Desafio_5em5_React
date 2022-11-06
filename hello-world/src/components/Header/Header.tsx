@@ -1,9 +1,14 @@
 // 
 
-export const Header = () => {
-    return(
+type Props = {
+    name: string;
+    age: number;
+};
+
+export const Header = ({ name, age }: Props) => {
+    return (
         <header>
-            <h1>Header</h1>
+            <h1>Me chamo {name} e tenho {age} anos. </h1>
         </header>
     );
 };
